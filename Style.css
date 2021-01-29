@@ -1,0 +1,46 @@
+
+
+.Header{
+background-color: red;
+text-align: center;
+padding: 20px;
+padding-bottom: 20px;
+
+
+}
+
+.Header ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+
+
+}
+
+.Header ul li a{
+
+	color: white;
+	text-decoration: none;
+font-size: 20px;
+
+}
+.Header ul li a:hover{
+
+color: black;
+
+}
+
+.banner{
+width: 100%;
+	background-image: url(../image/rit.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;	
+}
+
+
+	
