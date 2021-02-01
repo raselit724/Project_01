@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding: 0;
+
+
+
+}
+
+.header{
+background-color: #222831;
+text-align: center;
+margin: 20px;
+padding: 20px;
+
+}
+
+.banner{
+
+}
+
+
+.header ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+
+
+}
+
+.header ul li a{
+	color: white;
+	text-decoration:none;
+	font-size: 20px;
+
+}
+.header ul li a:hover{
+	color: tomato;
+}
+.banner{
+	width:100%;
+	background-image:url(../img/north.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 180px 0px;
+	text-align: center;
+
+}
+.banner h1{
+	color: tomato;
+	font-size: 56px;
+	text-transform: uppercase;
+
+}
+
+.banner p{
+width: 30%;
+margin: 0 auto;
+color: white;
+}
+
+.banner button{
+	padding: 10px 24px;
+	border-radius: 8px;
+	font-size: 16px;
+	background-color: #00ACEC;
+	color: #fff;
+	border: none;
+
+
+}
+
+.banner button:hover{
+	background-color: tomato;
+	cursor: pointer;
+}
